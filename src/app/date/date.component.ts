@@ -14,7 +14,7 @@ message: string ;
 
 
     setInterval(() => {
-      this.message=this.iii++;
+      this.message=""+this.iii++;
       // this.message = new Date().toTimeString();
     }, 1000);
   }
