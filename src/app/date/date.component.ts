@@ -8,15 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class DateComponent implements OnInit {
 // message: string = 'world';
 message: string ;
-  iii: number=0;
-
+// items = ["Angular", "React","View", "Bootstrap"];
   constructor() {
 
 
-    setInterval(() => {
-      this.message=""+this.iii++;
-      // this.message = new Date().toTimeString();
-    }, 1000);
+    // setInterval(() => {
+    //   // this.message=""+this.iii++;
+    //   // this.message = new Date().toLocaleTimeString();
+    // }, 1000);
   }
 
   ngOnInit() {
