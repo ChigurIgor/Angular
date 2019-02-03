@@ -1,2 +1,8 @@
-<input type="text" [(ngModel)]="text" [placeholder]="pholder" >
-<p>{{text}}</p>
+<div [ngClass]="{invisible:visibility}" >
+  <h1 [class.mclass]="true">Hello world</h1>
+  <p [ngClass]="{class2:true}">dsfdgffdsadsfdgdksngkldfnklgndlkfgklfndbknfgkln</p>
+
+  <p [ngStyle]="{'color':'blue'}">fdsghhhgfdsadfghgjh</p>
+</div>
+
+<button (click)="toogle()" >Toogle</button>

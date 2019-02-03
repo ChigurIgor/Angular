@@ -7,12 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DateComponent implements OnInit {
 
-text: string = "hello world";
-  pholder: string = "pholder";
+  visibility: boolean = true;
   constructor() {
 
   }
 
+  toogle(){
+    this.visibility=!this.visibility;
+  }
 
   ngOnInit() {
   }

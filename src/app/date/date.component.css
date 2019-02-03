@@ -1,4 +1,4 @@
-.even{
-  background-color: gray;
+.invisible{
+  /*display: none;*/
+  background-color: red;
 }
-.odd{background-color: red}
