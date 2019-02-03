@@ -10,7 +10,7 @@ export class DateComponent implements OnInit {
 // message: string ;
 // items = ["Angular", "React","View", "Bootstrap"];
 
-  loggedIn= true;
+  loggedIn= false;
   constructor() {
 
 

@@ -11,6 +11,8 @@
 <!--</ul>-->
 
 
-<div *ngIf="loggedIn">
+<div *ngIf="loggedIn; else loggedOut">
   Logged in.
 </div>
+
+<ng-template #loggedOut>Loged out</ng-template>
