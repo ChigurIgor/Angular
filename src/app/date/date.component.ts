@@ -6,20 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./date.component.css']
 })
 export class DateComponent implements OnInit {
-// message: string = 'world';
-// message: string ;
-// items = ["Angular", "React","View", "Bootstrap"];
 
-  loggedIn= false;
+isCollapsed = true;
+
   constructor() {
 
-
-    // setInterval(() => {
-    //   // this.message=""+this.iii++;
-    //   // this.message = new Date().toLocaleTimeString();
-    // }, 1000);
   }
 
+  toogleColapse() {
+    this.isCollapsed = !this.isCollapsed;
+  }
+
+
+  // myEvent(event){
+  //   console.log(event);
+  //   if(event.type=="click"){
+  //     console.log("click");
+  //   }
+  // }
   ngOnInit() {
   }
 
