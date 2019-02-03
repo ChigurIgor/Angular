@@ -7,23 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DateComponent implements OnInit {
 
-isCollapsed = true;
-
+text: string = "hello world";
+  pholder: string = "pholder";
   constructor() {
 
   }
 
-  toogleColapse() {
-    this.isCollapsed = !this.isCollapsed;
-  }
 
-
-  // myEvent(event){
-  //   console.log(event);
-  //   if(event.type=="click"){
-  //     console.log("click");
-  //   }
-  // }
   ngOnInit() {
   }
 
