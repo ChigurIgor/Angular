@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DateComponent implements OnInit {
 // message: string = 'world';
-message: string ;
+// message: string ;
 // items = ["Angular", "React","View", "Bootstrap"];
+
+  loggedIn= true;
   constructor() {
 
 
